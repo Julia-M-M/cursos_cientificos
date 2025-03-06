@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos Científicos en Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2a3d66;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+
+        header .cta-btn {
+            background-color: #ff8c00;
+            padding: 15px 30px;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+            font-size: 1rem;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .courses {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .course {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            width: 280px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .course img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .course h3 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .course p {
+            font-size: 1rem;
+            color: #666;
+            margin: 10px 0;
+        }
+
+        .cta-btn-course {
+            background-color: #ff8c00;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+            font-size: 1rem;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        .testimonials {
+            background-color: #e4e4e4;
+            padding: 40px 20px;
+        }
+
+        .testimonials h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .testimonial-item {
+            font-style: italic;
+            color: #555;
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #2a3d66;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #ff8c00;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer p {
+            font-size: 1rem;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Aprende Ciencia con los Mejores Expertos</h1>
+        <p>Accede a cursos profundos y bien estructurados sobre biología, física, química, matemáticas y más. ¡Comienza hoy mismo y amplía tus conocimientos!</p>
+        <a href="#cursos" class="cta-btn">Explora Nuestros Cursos</a>
+    </header>
+
+    <!-- Sección ¿Por qué elegirnos? -->
+    <section>
+        <h2>¿Por qué elegirnos?</h2>
+        <div>
+            <div>
+                <h3>Instructores Reconocidos</h3>
+                <p>Conoce a los científicos y profesores que lideran cada curso.</p>
+            </div>
+            <div>
+                <h3>Acceso Exclusivo</h3>
+                <p>Solo puedes acceder a estos cursos si los adquieres, garantizando contenido de calidad sin distracciones.</p>
+            </div>
+            <div>
+                <h3>Contenido Profundo y Práctico</h3>
+                <p>Explora conceptos complejos de manera sencilla, con ejemplos prácticos y aplicaciones reales.</p>
+            </div>
+            <div>
+                <h3>Aprende a tu Ritmo</h3>
+                <p>Disfruta de acceso ilimitado a todos los vídeos una vez que los compres. Aprende en cualquier momento, desde cualquier lugar.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Cursos -->
+    <section id="cursos">
+        <h2>Cursos Populares</h2>
+        <div class="courses">
+            <div class="course">
+                <img src="https://via.placeholder.com/280x180" alt="Curso de Física Cuántica">
+                <h3>Curso de Física Cuántica para Principiantes</h3>
+                <p>Un viaje fascinante por el mundo subatómico. Descubre cómo funciona el universo a nivel cuántico.</p>
+                <p>Duración: 10 horas</p>
+                <p>Precio: $99</p>
+                <a href="#compra" class="cta-btn-course">Compra Ahora</a>
+            </div>
+            <div class="course">
+                <img src="https://via.placeholder.com/280x180" alt="Curso de Biología Molecular">
+                <h3>Curso Completo de Biología Molecular</h3>
+                <p>Desde los fundamentos de la genética hasta las últimas innovaciones en biotecnología.</p>
+                <p>Duración: 15 horas</p>
+                <p>Precio: $129</p>
+                <a href="#compra" class="cta-btn-course">Compra Ahora</a>
+            </div>
+            <div class="course">
+                <img src="https://via.placeholder.com/280x180" alt="Curso de Matemáticas Avanzadas">
+                <h3>Matemáticas Avanzadas: Cálculo y Álgebra Lineal</h3>
+                <p>Domina las herramientas matemáticas que impulsan la ciencia moderna.</p>
+                <p>Duración: 12 horas</p>
+                <p>Precio: $89</p>
+                <a href="#compra" class="cta-btn-course">Compra Ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Testimonios -->
+    <section class="testimonials">
+        <h2>Lo que nuestros estudiantes dicen</h2>
+        <div class="testimonial-item">
+            <p>“El curso de biología molecular fue increíble. Los videos explicaron conceptos que no entendía de manera tan clara y profunda. ¡Totalmente recomendado!” – Ana G.</p>
+        </div>
+        <div class="testimonial-item">
+            <p>“Me encantó el enfoque práctico y cómo los ejemplos me ayudaron a entender la teoría. Definitivamente seguiré aprendiendo más con ustedes.” – Luis P.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Cursos Científicos. Todos los derechos reservados.</p>
+        <a href="#">Términos y Condiciones</a>
+        <a href="#">Política de Privacidad</a>
+        <a href="#">Contacto</a>
+    </footer>
+
+</body>
+</html>
